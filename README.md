@@ -11,12 +11,8 @@
 .env файл со следующим содержанием:
 
 ```
-DB_HOST=<ваши данные>
-DB_PORT=<ваши данные>
-DB_NAME=<ваши данные>
-DB_USER=<ваши данные>
-DB_PASSWORD=<ваши данные>
-SITE_DEBUG_MODE=True
+DB_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
+
 ```
 
 Python3 должен быть уже установлен. Затем используйте pip (или pip3, есть конфликт с Python2) для установки зависимостей:
