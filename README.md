@@ -12,7 +12,9 @@
 
 ```
 DB_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
-
+SECRET_KEY=SECRET_KEY
+DEBUG=DEBUG
+ALLOWED_HOSTS=ALLOWED_HOSTS
 ```
 
 Python3 должен быть уже установлен. Затем используйте pip (или pip3, есть конфликт с Python2) для установки зависимостей:
