@@ -7,7 +7,7 @@ env.read_env()
 
 DB_URL = os.getenv('DB_URL')
 
-DATABASES = {"default": env.dj_db_url('DB_URL')}
+DATABASES = {'default': env.dj_db_url('DB_URL')}
 
 INSTALLED_APPS = ['datacenter']
 
